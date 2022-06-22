@@ -1,8 +1,8 @@
-FROM ghcr.io/alastairhm/alpine-python3
+FROM python:latest
 
-RUN apk update && apk upgrade && apk add --no-cache --update \
-      graphviz && \
-    pip install diagrams
+RUN apt-get update &&  \
+    apt-get install --no-install-recommends -y graphviz && \
+    pip install --no-cache-dir diagrams
 
 ENTRYPOINT ["python"]
 
