@@ -2,7 +2,7 @@
 
 ## A Docker image for Python Diagrams on Alpine
 
-This repository provides an Alpine Python3 base image to run [Python Diagrams](https://github.com/mingrammer/diagrams).
+This repository provides an Python3 base image to run [Python Diagrams](https://github.com/mingrammer/diagrams).
 
 
 ```bash
