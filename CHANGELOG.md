@@ -8,5 +8,6 @@ Dates in this file are in format of YYYY-MM-DD (2019-12-13 means 13th of Decembe
 
 ## [Unreleased]
 
+## 1.0.0
 * Initial Version
 
