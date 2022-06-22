@@ -1,23 +1,19 @@
-# alpine-python3
+# docker-python-diagrams
 
-## A Docker image Python3 on Alpine
+## A Docker image for Python Diagrams on Alpine
 
-[![](http://dockeri.co/image/alastairhm/alpine-python3)](https://index.docker.io/u/alastairhm/alpine-python3/)
-
-This repository provides an Alpine Python3 base image as a source for further builds.
+This repository provides an Alpine Python3 base image to run [Python Diagrams](https://github.com/mingrammer/diagrams).
 
 
 ```bash
-docker run -it --rm alastairhm/alpine-python3
-docker run -it --rm ghcr.io/alastairhm/alpine-python3
+docker run -it --rm -v ${PWD}:/workdir ghcr.io/alastairhm/docker-python-diagrams example/diagram.py
 ```
 
 ```text
-_    _ __  __ 
+          _    _ __  __
     /\   | |  | |  \/  | Email   : alastair@montgomery.me.uk
    /  \  | |__| | \  / | Web     : https://blog.0x32.co.uk/
   / /\ \ |  __  | |\/| | Twitter : @alastair_hm
  / ____ \| |  | | |  | |
-/_/    \_\_|  |_|_|  |_| (c) 2021
+/_/    \_\_|  |_|_|  |_| (c) 2022
 ```
-
